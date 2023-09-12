@@ -8,7 +8,7 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
-public class SpringTest {
+public class StringTest {
     @DisplayName("문자열에서 ','를 기준으로 분리하여 1과 2가 분리되면 성공한다.")
     @Test
     public void 문자열_분리_테스트() {
